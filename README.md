@@ -1,4 +1,6 @@
-# Convolutional Neural Network (CNN) Project
+# Image Classification Using Convolutional Neural Network (CNN):
+
+![cnn](https://github.com/NavarroAlexKU/Image-Classification-Using-Convolutional-Neural-Networks/blob/main/cnn%20diagram.jpg?raw=true)
 
 This project implements a Convolutional Neural Network (CNN) using TensorFlow and Keras to classify images of cats and dogs. The project involves data preprocessing, building the CNN, training it on a dataset, and making predictions on new images.
 
@@ -133,6 +135,7 @@ else:
 
 print(f'The predicted class is: {prediction}')
 ```
+### Conclusion
 We can see the model was able to identify the picture correctly and classified the image as a dog.
 
 ![prediction output](https://github.com/NavarroAlexKU/Image-Classification-Using-Convolutional-Neural-Networks/blob/main/Prediction%20Output.png?raw=true)
