@@ -113,7 +113,8 @@ The model's training process shows a steady increase in accuracy and a decrease 
 
 ### Making a Single Prediction
 Making a Single Prediction
-A single image is loaded, preprocessed, and passed through the trained model to make a prediction.
+A single image is loaded, preprocessed, and passed through the trained model to make a prediction. The following image will be the test case for our prediction.
+![dog prediction test case](https://github.com/NavarroAlexKU/Image-Classification-Using-Convolutional-Neural-Networks/blob/main/cat_or_dog_1.jpg?raw=true)
 ```
 import numpy as np
 from keras.preprocessing import image
@@ -132,5 +133,7 @@ else:
 
 print(f'The predicted class is: {prediction}')
 ```
+We can see the model was able to identify the picture correctly and classified the image as a dog.
 
+![prediction output](https://github.com/NavarroAlexKU/Image-Classification-Using-Convolutional-Neural-Networks/blob/main/Prediction%20Output.png?raw=true)
 
