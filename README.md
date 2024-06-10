@@ -102,6 +102,14 @@ The model is compiled with the Adam optimizer and binary crossentropy loss funct
 ```
 cnn.fit(x=training_set, validation_data=test_set, epochs=25)
 ```
+![epoch](https://github.com/NavarroAlexKU/Image-Classification-Using-Convolutional-Neural-Networks/blob/main/epoch%20output.png?raw=true)
+
+## Training Interpretation
+The model's training process shows a steady increase in accuracy and a decrease in loss over the epochs, both for the training and validation sets. This indicates that the model is learning effectively from the training data and generalizing well to the validation data. Key observations include:
+
+- The training accuracy increases consistently, reaching over 90% by the final epoch.
+- The validation accuracy also shows a similar trend, reaching around 80%, indicating good generalization.
+- The loss decreases steadily, showing that the model is optimizing well.
 
 ### Making a Single Prediction
 Making a Single Prediction
